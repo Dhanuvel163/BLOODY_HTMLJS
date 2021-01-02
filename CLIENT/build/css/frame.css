@@ -1,0 +1,98 @@
+.frame {
+  padding: 8px !important;
+  background-color: blueviolet;
+  border-radius: 10px;
+  transition: 1s;
+}
+.frame:hover {
+  transform: scale(1.1);
+}
+
+.frameButton {
+  /* padding: 8px !important; */
+  background-color: blueviolet;
+  color: white;
+  border-radius: 10px;
+  transition: 1s;
+  /* width: 40px; */
+}
+@keyframes effect {
+  0% {
+    transform: scale(1, 1);
+  }
+  25% {
+    transform: scale(0.5, 0.5);
+  }
+
+  50% {
+    transform: scale(1.1, 1);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+.frameButton:hover {
+  color: white;
+  -moz-box-shadow: 0 0 10px #000000;
+  -webkit-box-shadow: 0 0 10px #000000;
+  box-shadow: 0 0 10px #000000;
+  transform: translateX(-3px) translateY(-3px) scale(1.01);
+}
+
+form {
+  border-radius: 13px;
+  background-color: white;
+  padding: 15px !important;
+
+  -moz-box-shadow: 0 0 10px #000000;
+  -webkit-box-shadow: 0 0 10px #000000;
+  box-shadow: 0 0 10px #000000;
+}
+
+textarea:focus,
+textarea.form-control:focus,
+input.form-control:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+[type="text"].form-control:focus,
+[type="password"].form-control:focus,
+[type="email"].form-control:focus,
+[type="tel"].form-control:focus,
+button[type="submit"]:focus,
+[contenteditable].form-control:focus {
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
+}
+input {
+  transition: 2s;
+}
+input:hover {
+  transform: scale(0.97);
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px rgb(180, 176, 176);
+}
+
+form button {
+  background-color: coral !important;
+  border-color: coral !important;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
+}
+
+.one-edge-shadow {
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
+}
+
+.alert {
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
+  margin-bottom: 40px;
+}
